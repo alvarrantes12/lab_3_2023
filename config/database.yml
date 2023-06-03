@@ -6,12 +6,12 @@ default: &default
 development:
   <<: *default
   database: lab_3_2023_development
-  port: 5433
+  #port: 5433
 
 test:
   <<: *default
   database: lab_3_2023_test
-  port: 5433
+  #port: 5433
 
 production:
   <<: *default
