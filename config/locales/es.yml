@@ -1,2 +1,42 @@
 es:
-  hello: "Hello world"
+  application:
+    list_of: Lista %{model}
+    new_model: Nuevo %{model}
+    edit_model: Editar %{model}
+    show: Mostrar
+    edit: Editar
+    save: Guardar
+    delete: Eliminar
+    select: Seleccionar
+    create: Crear
+    back: Atrás
+    created: Creado correctamente
+    update: Actualizado correctamente
+    destroy: Eliminado correctamente
+    cannot_be_saved: Error al crear el %{model}
+    cannot_be_update: Error al editar el %{model}
+    prohibited_create: prohiben la creación de un nuevo %{model}
+    cruds_model: CRUD con ruby
+  activerecord:
+    attributes:
+     director:
+      first_name: Nombre
+      last_name: Apellido
+es.activerecord.errors.models.movie.attributes.year.too_long
+    modules:
+     director:
+      one: Director
+      other: Directores
+    errors:
+      models:
+        director:
+          attributes:
+            first_name:
+              blank: espacio requerido
+            last_name:
+              blank: espacio requerido
+        movie:
+          attributes:
+            year:
+              too_long: Maximo 4 números
+              less_than_or_equal_to: No puede ser mayor a 2023
