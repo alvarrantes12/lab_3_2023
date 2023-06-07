@@ -22,7 +22,6 @@ es:
      director:
       first_name: Nombre
       last_name: Apellido
-es.activerecord.errors.models.movie.attributes.year.too_long
     modules:
      director:
       one: Director
