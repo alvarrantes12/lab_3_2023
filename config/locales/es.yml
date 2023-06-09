@@ -1,2 +1,23 @@
 es:
-  hello: "Hello world"
+  application:
+  activerecord:
+    attributes:
+    errors:
+      models:
+        movie:
+          attributes:
+            name:
+              blank: nombre vacío
+            year: 
+              blank: vacío
+              too_long: la cantidad maxima de numero es 4
+              less_than_or_equal_to: tiene que ser menor o igual al año 2023
+              not_a_number: no es un numero
+            director_id:
+              blank: vacío
+        director:
+          attributes:
+            first_name:
+              blank: nombre vacío
+            last_name:
+              blank: apellido vacío
