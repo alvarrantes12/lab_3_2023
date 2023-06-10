@@ -1,2 +1,43 @@
 es:
-  hello: "Hello world"
+  application:
+    created: Creado
+    update: Actualizado
+    destroyed: Eliminado
+    edit: Editar
+    back: Atras
+    can_not_be_saved: No se pudo guardar
+    delete: Eliminar
+    create: Crear
+    show: Mostrar
+    save: Guardar
+    director_list: Lista de Directores
+    list_of: Lista de
+    show: Mostrar
+    confirm: Confirmar
+    ok: Esta bien
+    cancel: Cancelar
+    new: Nuevo %{model}
+    select: Seleccione
+    edit_model: Editar %{model}
+  activerecord:
+    attributes:
+      director:
+        first_name: Nombre
+        last_name: Apellido
+    modules: 
+      director:
+        one: Director
+        other: Directores
+    errors:
+      models:
+        director:
+          attributes:
+            first_name:
+              too_short: muy corto
+              too_long: muy largo
+              blank: vacio
+            last_name:
+              too_short: muy corto
+              too_long: muy largo
+              blank: vacio
+          
