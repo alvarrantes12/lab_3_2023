@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+Director.create(first_name: 'Guillermo', last_name: 'Del Toro');
+Director.create(first_name: 'Steven', last_name: 'Spielberg');
