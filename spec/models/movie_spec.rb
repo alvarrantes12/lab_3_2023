@@ -2,9 +2,9 @@ require 'rails_helper'
 
 RSpec.describe Movie, type: :model do
   subject {
-    described_class.new(first_name: "First_Name_Movie",
+    described_class.new(name: "name_Movie",
                         year: 2022,
-                        director: Director.create(first_name: "First_Name_Director1", last_name: "Last_Name_Director1")
+                        director: Director.create(first_name: "First_name_Director1", last_name: "Last_Name_Director1")
                        )
   }
 
@@ -12,8 +12,8 @@ RSpec.describe Movie, type: :model do
     expect(subject).to be_valid
   end
 
-  it "is not valid without a first_name" do
-    subject.first_name = nil
+  it "is not valid without a name" do
+    subject.name = nil
     expect(subject).to_not be_valid
   end
 

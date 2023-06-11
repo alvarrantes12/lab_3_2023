@@ -45,7 +45,7 @@ module Api
     end
 
     def movie_params
-      params.require(:movie).permit(:first_name, :year, :director, :director_id)
+      params.require(:movie).permit(:name, :year, :director, :director_id)
     end
   end
 end
