@@ -1,7 +1,13 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
+Director.create(first_name: "George", last_name: "Lucas")
+Director.create(first_name: "Steven", last_name: "Spielberg")
+Director.create(first_name: "Christopher", last_name: "Nolan")
+Director.create(first_name: "Quentin", last_name: "Tarantino")
+
+Movie.create(name: "Star Wars: Episode IV - A New Hope", year: "1977", director_id: 1)
+Movie.create(name: "Indiana Jones and the Raiders of the Lost Ark", year: "1981", director_id: 2)
+Movie.create(name: "The Dark Knight", year: "2008", director_id: 3)
+Movie.create(name: "Pulp Fiction", year: "1994", director_id: 4)
+Movie.create(name: "Jurassic Park", year: "1993", director_id: 2)
+Movie.create(name: "Inception", year: "2010", director_id: 3)
+Movie.create(name: "Django Unchained", year: "2012", director_id: 4)
+Movie.create(name: "E.T. the Extra-Terrestrial", year: "1982", director_id: 2)
