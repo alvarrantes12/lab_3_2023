@@ -1,6 +1,7 @@
 module Api
   class MoviesController < ApplicationController
     before_action :set_movie, only: %i[ show edit update destroy ]
+    skip_before_action :verify_authenticity_token
 
     def index
       @movies = Movie.all

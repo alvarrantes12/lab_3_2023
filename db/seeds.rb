@@ -1,3 +1,8 @@
 Director.create(first_name: "George", last_name: "Lucas")
 Director.create(first_name: "Steven", last_name: "Spielberg")
 Director.create(first_name: "James", last_name: "Cameron")
+Director.create(first_name: "Quentin", last_name: "Tarantino")
+Director.create(first_name: "Tim", last_name: "Burton")
+Director.create(first_name: "Christopher", last_name: "Nolan")
+Director.create(first_name: "Guillermo", last_name: "Del Toro")
+Director.create(first_name: "Michael", last_name: "Haneke")
