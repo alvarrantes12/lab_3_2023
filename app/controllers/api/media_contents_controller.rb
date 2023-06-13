@@ -19,7 +19,7 @@ module Api
       @media_content = MediaContent.new(media_content_params)
 
       if @media_content.save
-        render 'api/media_contents/show', status: :created, location: @media_content 
+        render 'api/media_contents/index', status: :created, location: @media_content 
       else
         render json: @media_content.errors, status: :unprocessable_entity
       end
@@ -27,7 +27,7 @@ module Api
 
     def update
         if @media_content.update(media_content_params)
-        render 'api/media_contents/show', status: :ok, location: @media_content 
+        render 'api/media_contents/index', status: :ok, location: @media_content 
         else
           render json: @media_content.errors, status: :unprocessable_entity
         end
