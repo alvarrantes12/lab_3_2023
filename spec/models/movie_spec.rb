@@ -31,7 +31,6 @@ RSpec.describe Movie, type: :model do
     subject.year = 20002
     expect(subject).to_not be_valid
   end
-
   it "is not valid with a year more than 2023" do
     subject.year = 2024
     expect(subject).to_not be_valid
