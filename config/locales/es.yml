@@ -1,2 +1,33 @@
 es:
-  hello: "Hello world"
+  application:
+    can_not_be_saved: No se pudo guardar
+    back: Atrás
+    save: Guardar
+    editing_model: Editando %{model}
+    list_of: Lista de %{model}
+    create: Crear
+    show: Mostrar
+    edit: Editar
+    delete: Eliminar
+    new_model: Nuevo %{model}
+    created: ¡Creado exitosamente!
+    updated: ¡Actualizado exitosamente!
+    destroyed: ¡Eliminado exitosamente!
+    crud_available: Crud Disponibles
+  activerecord:
+    errors:
+      models:
+        director:
+          attributes:
+            first_name:
+              blank: en blanco
+            last_name:
+              blank: en blanco
+    modules:
+      director:
+        one: Director
+        other: Directores
+    attributes:
+      director: 
+        first_name: Nombre
+        last_name: Apellido

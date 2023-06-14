@@ -5,6 +5,7 @@ ruby "3.2.0"
 
 gem "rails", "~> 7.0.4", ">= 7.0.4.2"
 
+gem 'activerecord'
 gem 'bootstrap'
 gem "bootsnap", require: false
 gem 'font-awesome-sass', '~> 6.4.0'
