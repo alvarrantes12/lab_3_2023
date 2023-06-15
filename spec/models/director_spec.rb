@@ -2,8 +2,8 @@ require 'rails_helper'
 
 RSpec.describe Director, type: :model do
   subject {
-    described_class.new(first_name: "Allan",
-                        last_name: "Castro")
+    described_class.new(first_name: "Raq",
+                        last_name: "Arias")
   }
 
   it "valid with valid attributes" do

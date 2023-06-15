@@ -2,8 +2,8 @@ require 'rails_helper'
 
 RSpec.describe Movie, type: :model do
   subject {
-    described_class.new(movie_name: "Juego de Gemelas",
-                        movie_year: "2001",
+    described_class.new(movie_name: "Fin del Mundo",
+                        movie_year: "2011",
                         director: Director.create(first_name: "Raquel", last_name: "Arias"))
   }
 
